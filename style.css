@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: "Roboto", "sans-serif";
+}
+
+/* navigatoon */
+nav {
+    background-color: #F9EDE0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%
+}
+
+#main-menu {
+    display: flex;
+    gap: 50px;
+}
+
+#main-menu li {
+    list-style: none;
+}
+
+.logo {
+    color: #B67A7A;
+    font-size: 30px;
+    font-family: "Italiana", "serif";
+}
+
+#main-menu .dropown {
+    background-color: #B67A7A;
+    color: grey;
+    margin: 0px;
+    padding: 20px;
+    position: absolute;
+    display: none;
+}
+
+#main-menu .dropdown a {
+    color: #B67A7A;
+}
+
+#main-menu .sub-menu:hover .dropdown {
+    display: block;
+}
+
+/* welcome section*/
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 70%;
+    margin: auto; 
+    align-items: center;
+    margin: 100px auto;
+}
+
+#welcome .homepage-women {
+    flex: 2;
+}
