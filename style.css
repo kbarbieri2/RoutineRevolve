@@ -25,8 +25,9 @@ nav {
 
 span.logo a {
     color: #B67A7A;
-    font-size: 36px;
+    font-size: 40px;
     font-family: "Italiana", "serif";
+    font-weight: 700;
 }
 
 .dropdown-menu {
@@ -41,6 +42,8 @@ span.logo a {
 
 #main-menu .dropdown-menu a {
     color:#F9EDE0;
+    line-height: 28px;
+
 }
 
 a:hover, button:hover {
@@ -51,7 +54,7 @@ button {
     background-color: transparent;
     border: 0px;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 24px;
     color:#B67A7A;
 }
 
@@ -66,10 +69,10 @@ a, button {
 
 .sign-up{
     background-color:#B67A7A;
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
     color:#F9EDE0;
-    font-size:14px;
+    font-size:16px;
 }
 
 /* welcome section*/
@@ -78,20 +81,25 @@ a, button {
     display: flex;
     justify-content: left;
     gap: 30px;
-    width: 70%;
+    width: 90%;
     margin: auto; 
     align-items: center;
     margin: 40px auto;
+    padding: 30px;
 }
 
 .welcome-text {
     color:#B67A7A;
+    font-size: 55px;
+    padding-bottom: 15px;
 }
 
 .welcome-body {
     color:#797b81;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 46px;
 }
-
 
 #welcome .homepage-women {
     flex: 2;
@@ -100,16 +108,25 @@ a, button {
 
 /* carousel*/
 
-.wrapper {
-    max-width: 1100px;
-    justify-content: center;
-    align-items: center;
-    padding: center;
+.carousel-text {
+    color:#B67A7A;
+    font-weight:600;
 }
 
+.wrapper {
+    max-width: 1300px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
 
 li a {
     color:#B67A7A;
+}
+
+.carousel {
+    background-color:#F9EDE0;
+    padding: 30px;
 }
 
 /* footer */
@@ -222,9 +239,27 @@ li a {
 
 /* routines page */
 
+.header-whole {
+    width: 70%;
+    margin: auto; 
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px;
+}
+.header {
+    color: #B67A7A;
+    font-size: 32px;
+}
+.header-body {
+    color:#797b81;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 45px;
+}
+
 .accordion {
-    margin: 60px auto;
-    width: 900px;
+    margin: 40px auto;
+    width: 1100px;
 }
 
 .accordion li {
@@ -281,6 +316,22 @@ input[type="radio"] {
     content: '-';
 }
 
+.accordion label{
+    color:#F9EDE0;
+}
+
+.steps {
+    display: flex;
+    gap: 40px;
+}
+
+.steps img {
+    height:fit-content;
+}
+
+
+
+
 /* Eye product page */
 
 .main-wrap {
@@ -304,3 +355,100 @@ input[type="radio"] {
 .main-wrap .product .product-details {
     flex-basis: 53%;
 }
+
+
+/* Eye product page */
+
+.main-wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#FFF9F2;
+}
+
+.main-wrap .product {
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+}
+
+.main-wrap .product .image-gallery {
+    flex-basis: 43%;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.07);
+    position: relative;
+}
+
+.main-wrap .product .image-gallery img {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.main-wrap .product .image-gallery .controls {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+
+.main-wrap .product .image-gallery .controls .btn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background:#F1C6C6;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.main-wrap .product .image-gallery .controls .btn.active {
+    background:#F9EDE0;
+}
+
+.main-wrap .product .product-details {
+    flex-basis: 53%;
+    background: #F9EDE0;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px 40px 40px;
+} 
+
+.main-wrap .product .product-details h1{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom:10px;
+    color: #797b81;
+
+}
+
+.main-wrap .product .product-details h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color:#B67A7A;
+}
+
+.main-wrap .product .product-details h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom:10px;
+    color:#797b81;
+}
+.main-wrap .product .product-details h4{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color:#797b81;
+}
+
+.main-wrap .product .product-details p{
+    font-size: 14px;
+    font-weight: 450;
+    margin-bottom: 25px;
+    color:#B67A7A;
+    line-height: 30px;
+}
+
