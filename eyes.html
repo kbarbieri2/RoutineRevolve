@@ -22,7 +22,7 @@
             <li class="dropdown-trigger">
                 <button>Routines</button>
                 <menu class="dropdown-menu">
-                    <li><a href="">Beginner</a></li>
+                    <li><a href="beginner.html">Beginner</a></li>
                     <li><a href="">Intermediate</a></li>
                     <li><a href="">Experienced</a></li>
                 </menu>
@@ -50,6 +50,7 @@
             </li>
         </Menu>
     </nav>
+
 <!--Product Page-->
 
 <section class="main-wrap">
@@ -57,6 +58,8 @@
         <div class="image-gallery">
             <img src="assets/tarte-1.jpg" id="productImg" alt="">
             <div class="controls">
+                <span class="btn"></span>
+                <span class="btn"></span>
                 <span class="btn"></span>
                 <span class="btn"></span>
                 <span class="btn"></span>
@@ -72,32 +75,82 @@
                 <p> Get your shadow skills bloomin' with Tarte's cult-favorite Tartelette In Bloom eyeshadow palette packed with everyday essential shades!</p>
             </div>
             <div class="sub-btn">
-                <button class="cart">Add to Cart</button>
-                <button class="wishlist">Add to Wishlist</button>
+                <button class="product-btn">Add to Cart</button>
+                <button class="product-btn">Add to Wishlist</button>
             </div>
         </div>
     </div>
 
 </section>
 
+<!-- More Info -->
 
 
+<section id="about">
+    <div>
+        <h2 class="about-header"> <u>About the Product</u></h2>
+        <h3 class="sub-header">Key Ingredients</h3>
+        <p>
+            <ul class="bullet">
+                <li>Amazonian clay: for better, longer, truer wear</li>
+                <li>Mineral pigments: soothe & soften skin</li>
+            </ul>
+        </p>
+        <h3 class="sub-header">Shades</h3>
+        <p>
+            <ul class="bullet">
+                <li>Rebel (matte chestnut brown)</li>
+                <li>Funny girl (shimmering champagne)</li>
+                <li>Firecracker (shimmering bronze copper)</li>
+                <li>Includes micro-shimmer & matte shades:</li>
+                <li>Activist (matte dark brown)</li>
+                <li>Rocker (shimmering taupe)</li>
+                <li>Sweetheart (matte peach)</li>
+                <li>Leader (matte aubergine)</li>
+                <li>Flower child (matte peachy nude)</li>
+                <li>Charmer (matte off white)</li>
+                <li>Jetsetter (matte warm taupe)</li>
+                <li>Smarty pants (matte tan)</li>
+                <li>Smokeshow (matte black brown)</li>
+            </ul>
+        </p>
+    </div>
+</section>
 
 
-
+<section id="more">
+    <div>
+        <h2 class="about-header"> <u>Products we think you'll Love</u></h2>
+        <h3 class="sub-header">Tartelette&Trade Amazonian Clay <br> Matte Eyeshadow Palette</h3>
+            <p class="info">
+                $47.00 <br>
+                Community Favorite, Pressed Powder formula, Long-wearing</li>
+            </p>
+        <h3 class="sub-header">Urban Decay; Naked3 Eyeshadow Palette</h3>
+        <p class="info">
+            $59.00 <br>
+           Fragrance Free, Paraben-free
+        </p>
+        <h3 class="sub-header">HUDA BEAUTY; Matte Obsessions <br> Eyeshadow Palette</h3>
+        <p class="info">
+            $32.00 <br>
+            Cruelty-Free, Fragrance Free, Paraben-free
+        </p>
+    </div>
+</section>
 <!--Footer-->
     <div class="footer-container">
         <div class="footer">
             <div class="footer-heading footer-1">
                 <h2>Routines</h2>
-                <a href="#">Begginer</a>
+                <a href="beginner.html">Beginner</a>
                 <a href="#">Intermediate</a>
                 <a href="#">Experienced</a>
             </div>
             <div class="footer-heading footer-2">
                 <h2>Products</h2>
                 <a href="#">Face</a>
-                <a href="#">Eyes</a>
+                <a href="eyes.html">Eyes</a>
                 <a href="#">Lips</a>
                 <a href="#">Cheeks</a>
                 <a href="#">Tools</a>
@@ -126,6 +179,13 @@
         </div>
     </div>
 
-    <script src="./js/app.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
+    <script src="assets/eyes.js"></script>
 </body>
 </html>

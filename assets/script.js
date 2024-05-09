@@ -23,18 +23,4 @@ var splide = new Splide( '#March', {
   
   splide.mount();
 
-  const image = document.getElementById( 'productImg' )
-  const btn = document . getElementByClassName( 'btn' )
-
-  btn[0].addEventListener( 'click', function(){
-    image.scr = 'assets/tarte-1.jpg';
-  } );
   
-  btn[1].addEventListener( 'click', function(){
-      image.scr = 'assets/tarte-2.jpg';
-  } );
-  
-  btn[2].addEventListener( 'click', function(){
-      image.scr = 'assets/tarte-3.jpg';
-  } );
-

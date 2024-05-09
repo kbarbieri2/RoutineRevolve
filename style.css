@@ -111,6 +111,8 @@ a, button {
 .carousel-text {
     color:#B67A7A;
     font-weight:600;
+    margin-bottom: 15px;
+    font-size: 28px;
 }
 
 .wrapper {
@@ -120,13 +122,18 @@ a, button {
     margin: 70px auto;
 }
 
-li a {
+li a, a {
     color:#B67A7A;
 }
 
 .carousel {
     background-color:#F9EDE0;
     padding: 30px;
+}
+
+.carousel-header {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* footer */
@@ -323,6 +330,7 @@ input[type="radio"] {
 .steps {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .steps img {
@@ -340,6 +348,7 @@ input[type="radio"] {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .main-wrap .product {
@@ -363,8 +372,6 @@ input[type="radio"] {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background:#FFF9F2;
 }
 
@@ -383,7 +390,6 @@ input[type="radio"] {
 
 .main-wrap .product .image-gallery img {
     width: 100%;
-    padding-top: 60px;
 }
 
 .main-wrap .product .image-gallery .controls {
@@ -401,7 +407,6 @@ input[type="radio"] {
     margin-bottom: 10px;
     cursor: pointer;
 }
-
 
 .main-wrap .product .image-gallery .controls .btn.active {
     background:#F9EDE0;
@@ -451,4 +456,51 @@ input[type="radio"] {
     color:#B67A7A;
     line-height: 30px;
 }
+
+.product-btn {
+    background-color:#B67A7A;
+    padding: 8px;
+    border-radius: 5px;
+    color:#F9EDE0;
+    font-size:16px;
+}
+
+/* More info */
+
+#about {
+    margin: 200px;
+    margin-top: 0px;
+    float: left;
+}
+.about-header {
+    color:#B67A7A;
+    margin-bottom: 20px;
+    font-size:32px;
+}
+
+.sub-header {
+    color:#797b81;
+    margin-bottom:20px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bullet{
+    color:#797b81;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+#more {
+    margin: 200px;
+    margin-top: 0px;
+}
+
+.info {
+    color: #797b81;
+    margin-bottom: 30px;
+}
+
+
+
 
